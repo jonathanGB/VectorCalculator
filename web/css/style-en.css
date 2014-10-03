@@ -1,0 +1,487 @@
+body
+{
+	min-width: 320px;
+}
+
+#headerContainer
+{
+	display: block;
+}
+
+#grumpy, #stopit, #seriouslystop
+{
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+  
+  display: none;
+  z-index: 5;
+}
+
+header h1, #language-selector
+{
+	display: inline-block;
+}
+
+@media (max-width: 768px)
+{
+	#mod .symbole
+	{
+		display: none;
+	}
+
+	#mod input
+	{
+		width: 100% !important;
+	}
+
+	#mod p, #com p
+	{
+		width: 100% !important;
+	}
+
+	#alertPi
+	{
+		width: 100% !important;
+	}
+}
+
+@media (max-width: 660px)
+{
+	header h1
+    {
+        font-size: 2.0em;   
+    }
+}
+
+@media (max-width: 574px)
+{   
+    .mode-selector
+    {
+         width: 100% !important;;
+        margin-top: 10px !important;
+    }
+    
+    #selectMode
+    {
+         margin-left: 0 !important; 
+        padding-left: 64px;
+    }
+    
+    #format
+    {
+        margin-bottom: 10px !important;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+     header h1
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    #selection
+    {
+    	margin-top: 20px !important;
+    }
+
+    header button
+    {
+    	margin-left: 31% !important;
+    }
+}
+
+@media (max-width: 553px)
+{
+	#btn1, #btn2, #btn3
+	{
+        width: 100% !important;
+        margin-bottom: 6px;
+        margin-left: auto;
+        margin-right: auto;
+	}
+
+	.ajouterCompBox, .enleverCompBox, .afficherProduitBox
+	{
+        width: 100% !important;
+        margin-bottom: 6px;
+        margin-left: auto;
+        margin-right: auto;
+	}
+
+	header button
+    {
+    	margin-left: 29% !important;
+    }
+}
+
+@media (max-width: 500px)
+{
+	header button
+	{
+		margin-left: 25% !important;
+	}	
+}
+
+@media (max-width: 400px)
+{
+	header button
+	{
+		margin-left: 21% !important;
+	}
+}
+
+@media (max-width: 362px)
+{   
+    #selectMode
+    {
+         padding-left: 0;
+         display: block; 
+    }
+
+    .formatReponse
+    {
+    	margin-left: 0px !important;
+    }
+
+    .mode
+    {
+    	display: block;
+    }
+}
+
+@media (max-width: 330px)
+{
+	#selection, footer
+	{
+		width: 310px !important;
+	}
+
+	footer, footer p
+	{
+		text-align: left !important;
+	}
+
+	footer p
+	{
+		margin-left: -14px !important;
+		width: 290px !important;
+	}
+
+	body
+	{
+		margin-left: -10px !important;
+	}
+}
+
+#language-selector
+{
+	margin-left: 20px;
+	position: relative;
+	bottom: 5px;
+}
+
+#language-selector a
+{
+	color: initial;
+}
+
+#language-selector a:hover
+{
+	text-decoration: none;
+	
+}
+
+#language-selector:focus, #btn3 button, button:focus
+{
+	outline: none;
+}
+
+.mode
+{
+	padding-right: 2px;
+}
+
+.mode-selector
+{
+	margin-top: 20px;
+	text-align: center;
+	margin-bottom: 0;
+	display: inline-block;
+}
+
+#selectMode
+{
+	margin-left: 5px;
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.formatReponseCentre
+{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#centrerButons
+{
+	text-align: center;
+}
+
+.formatReponse
+{
+	padding-right: 0;
+	padding-left: 0;
+	margin-left: 5px;
+}
+
+#selection
+{
+	margin-top: 40px;
+}
+
+#mod
+{
+	margin-top: 20px;
+}
+
+#mod input
+{
+	width: 90%;
+}
+
+#mod p, #com p
+{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#com
+{
+	margin-top: 20px;
+}
+
+tbody tr td:first-child
+{
+	text-align: center;
+	font-style: italic;
+}
+
+.btn-group a
+{
+	font-weight: bold !important;
+    text-align: center;
+}
+
+#resetInputs1, #resetInputs2, #resetInputs3, #resetInputs4, .easter_eggs
+{
+	text-align: center;
+	display: none;
+	margin-bottom: 15px;
+	margin-top: 0;
+}
+
+#resetInputs3
+{
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+audio
+{
+	display: none;
+}
+
+p
+{
+	text-align: center;
+}
+
+.reponseEsthetique
+{
+	border: 2px solid #285e8e;
+	border-radius: 4px;
+	background: #50D3F6;
+}
+
+#btn3
+{
+	text-align:center;
+}
+
+#btn1, #btn2, #btn3
+{
+	display: inline-block;
+}
+
+#boutons
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#ajouterComp, #enleverComp, #afficherProduit
+{
+	display: inline-block;
+}
+
+table, th
+{
+	text-align: center !important;
+}
+
+header div div
+{
+	display: none;
+	position: absolute;
+	top: 0;
+	padding: 0;
+	font-size: 1.5em;
+	font-weight: bold;
+	width: 40% !important;
+	margin-right: auto;
+    margin-left: auto;
+}
+
+#alertPi
+{
+	display: none;
+	text-align: center;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.italic
+{
+	font-style: italic;
+}
+
+#con
+{
+   text-align: center;
+   margin-top: 20px;
+}
+
+.glyphicon
+{
+	position: relative;
+	top: 3px !important;
+}
+
+#angleConverti
+{
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#angleConverti button
+{
+	border-radius: 0;
+}
+
+button:hover, label:hover
+{
+	cursor: pointer;
+}
+
+#con p, #mul p
+{
+	margin-top: 10px;
+}
+
+header form
+{
+	display: inline-block;
+	margin-left: 6px;
+	position: relative;
+	top: 4px;
+}
+
+#mul
+{
+	margin-top: 20px;
+	text-align: center;
+}
+
+#tableS, #tableV, #tableM
+{
+	display: none;
+}
+
+#ajouterComp, #enleverComp, #afficherProduit
+{
+	display: none;
+}
+
+#ajouterComp2, #enleverComp2, #afficherResultat, #ajouterComp2:focus, #enleverComp2:focus, #afficherResultat:focus
+{
+	display: inline-block;
+	outline: none;
+}
+
+#unitaireBoutons
+{
+	text-align: center;
+}
+
+.ajouterCompBox, .enleverCompBox, .afficherProduitBox, .ajouterCompBox:focus, .enleverCompBox:focus, .afficherProduitBox:focus
+{
+	display: inline-block;
+	text-align: center;
+	outline: none;
+}
+
+.btn:focus
+{
+	outline: none !important;
+}
+
+footer
+{
+	text-align: center;
+	margin-top: 15px;
+}
+
+footer a:hover
+{
+	text-decoration: none;
+}
+
+#boutonPayPal
+{
+	display: inline-block;
+}
+
+footer p
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px !important;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+p button
+{
+	display: inline-block;
+	position: relative;
+	bottom: 4px;
+	margin-left: 15px !important;
+	margin-top: 10px;
+}
+
+#regle_uni
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

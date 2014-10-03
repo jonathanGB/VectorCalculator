@@ -1,0 +1,304 @@
+body
+{
+	min-width: 320px;
+}
+
+#boutonPayPal
+{
+	display: inline-block;
+	position: relative;
+	top: 6px;
+	margin-bottom: 5px;
+}
+
+#language-box
+{
+	display: inline-block;
+}
+
+main h3
+{
+	width: auto;
+	border-bottom: 1px dashed black;
+	padding-bottom: 7px;
+}
+
+h1
+{
+	display: inline-block;
+}
+
+main
+{
+	margin-top: 20px;
+}
+
+main h5
+{
+	margin-top: 0;
+	font-size: 1.3em;
+	text-align: left;
+	font-style: italic;
+}
+
+.btn:focus
+{
+	outline: none !important;
+}
+
+p button
+{
+	display: inline-block;
+	position: relative;
+	bottom: 4px;
+	margin-left: 15px !important;
+}
+
+button:hover
+{
+	cursor: pointer;
+}
+
+footer
+{
+	text-align: center;
+}
+
+#language-selector
+{
+	margin-left: 15px;
+	margin-right: 10px;
+}
+
+#formulaire
+{
+	margin-top: 40px;
+}
+
+.control-group
+{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h5
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px !important;
+	text-align: justify !important;
+	font-size: 1.5em;
+}
+
+p
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px !important;
+	text-align: center !important;
+	font-size: 1.5em;
+}
+
+p button
+{
+	display: block;
+	margin-top: 8px;
+}
+
+#facebook
+{
+	text-align: center;
+}
+
+a:hover
+{
+	text-decoration: none !important;
+}
+
+body
+{
+	background: #dddddd !important;
+}
+
+header button
+{
+	position: relative;
+	bottom: 6px;
+}
+
+form legend
+{
+	border-bottom: 1px solid #333333 !important;
+}
+
+#singlebutton
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+
+#retour
+{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	margin-top: 7px;
+}
+
+#recaptcha_area
+{
+    margin: 10px auto;
+    margin-bottom: 0;
+}
+
+@media (max-width: 770px)
+{
+	main, #formulaire
+	{
+		padding-right: 25px !important;
+		padding-left: 25px !important;
+	}
+}
+
+@media (max-width: 640px)
+{
+	h1
+	{
+		font-size: 1.8em !important;
+	}
+}
+
+
+@media (max-width: 685px)
+{
+	h3
+	{
+		font-size: 1.4em !important;
+	}
+
+	h5
+	{
+		font-size: 1.2em !important;
+	}
+}
+
+@media (max-width: 500px)
+{
+	h3
+	{
+		font-size: 1.3em !important;
+	}
+
+	h5
+	{
+		font-size: 1.1em !important;
+	}
+
+	h1
+	{
+		font-size: 1.7em !important;
+	}
+}
+
+@media (max-width: 380px)
+{
+	#recaptcha_area
+	{
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		position: absolute;
+		left: 6px;
+	}
+
+	#captcha
+	{
+		margin-bottom: 155px;
+	}
+
+	.container
+	{
+		margin-left: 3px !important;
+		margin-right: 3px !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+
+	body
+	{
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+
+	h1
+	{
+		width: 100%;
+		text-align: center;
+	}
+
+	#language-box
+	{
+		width: 100% !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		text-align: center;
+	}
+}
+
+@media (max-width: 330px)
+{
+	main, h1, p, #language-box
+	{
+		width: 314px !important;
+	}
+
+	h1, p, #language-box
+	{
+		margin-left: 0px !important;
+		margin-right: 0 !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+}
+
+.resultat
+{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.text-center
+{
+	margin-top: 7px !important;
+}
+
+a:hover
+{
+	text-decoration: none !important;
+}
+
+h2
+{
+	font-size: 1.2em;
+	font-weight: bold !important;
+}
+
+.message_courriel
+{
+	font-size: 1.1em;
+}
+
+@media (max-width: 500px)
+{
+	.resultat
+	{
+		width: 96%;
+	}
+}
