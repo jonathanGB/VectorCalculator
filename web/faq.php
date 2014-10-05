@@ -51,7 +51,7 @@
 				</div>
 			</header>
 			<div id ="retour">
-				<a href="index.php"><button class="btn btn-primary"> Retourner au calculateur </button></a>
+				<a href="index.html"><button class="btn btn-primary"> Retourner au calculateur </button></a>
 			</div>
 			<main class="row">
 				<h3><strong>Q: <em>Qui es-tu, et pourquoi as-tu créé ce site?</em></strong></h3>
@@ -111,6 +111,7 @@
 				<p id="facebook" style="color: #2a64a7;"> Et visitez la page facebook et twitter!<a href="https://www.facebook.com/vectorsCalculator"><button class="btn btn-default"><img src="img/facebook.png" alt="facebook"/></button></a><a href="https://www.twitter.com/VectorCalculate"><button class="btn btn-default"><img src="img/twitter.png" alt="twitter"/></button></a></p>
 				<div style="margin-bottom:10px;" class="fb-like" data-href="https://www.facebook.com/vectorsCalculator" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div> <br>
 				<a class="twitter-follow-button" href="https://twitter.com/VectorCalculate" data-show-count="false" data-lang="fr">Suivre @VectorCalculate</a>
+				<div id="github"><iframe src="http://ghbtns.com/github-btn.html?user=jonathanGB&type=follow" height="30" width="168" frameborder="0" scrolling="0" style="width:168px; height: 30px;" allowTransparency="true"></iframe></div>
 			</footer>
 		</div>
 

@@ -22,6 +22,14 @@ body
   z-index: 5;
 }
 
+#github
+{
+	display: inline-block;
+	margin-left: 7px;
+	position: relative;
+	top: 10px;
+}
+
 header h1, #language-selector
 {
 	display: inline-block;
@@ -153,6 +161,11 @@ header h1, #language-selector
     {
     	display: block;
     }
+
+    #github
+    {
+    	position: static !important;
+    }
 }
 
 @media (max-width: 330px)
@@ -176,6 +189,11 @@ header h1, #language-selector
 	body
 	{
 		margin-left: -10px !important;
+	}
+
+	#github
+	{
+		margin-left: 0 !important;
 	}
 }
 
