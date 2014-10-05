@@ -11,14 +11,6 @@ body
 	margin-bottom: 5px;
 }
 
-#github
-{
-	display: inline-block;
-	margin-left: 7px;
-	position: relative;
-	top: 10px;
-}
-
 #language-box
 {
 	display: inline-block;
@@ -255,14 +247,6 @@ form legend
 		margin-right: auto !important;
 		text-align: center;
 	}
-}
-
-@media (max-width: 356px)
-{
-	#github
-    {
-    	position: static !important;
-    }
 }
 
 @media (max-width: 330px)

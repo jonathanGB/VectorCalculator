@@ -1,7 +1,7 @@
 <?php
     // recaptcha
     require_once('recaptchalib.php');
-	  $privatekey = '6LdDe_oSAAAAAMHfmCYcQJLfpGCp9lSxW5PMMf74';
+	  $privatekey = 'insert_private_key';
 	  $resp = recaptcha_check_answer ($privatekey,
                         $_SERVER["REMOTE_ADDR"],
                         $_POST["recaptcha_challenge_field"],
@@ -10,5 +10,5 @@
 	  if (!$resp->is_valid) 
 	    echo "Error";
 	  else
-	    echo "Email address: vectors.calculator@gmail.com";
+	    echo "Email address: insert_email_address";
 ?>
