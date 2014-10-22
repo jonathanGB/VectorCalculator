@@ -657,14 +657,12 @@ $(document).ready(function() {
 				for (var i = 0; i < 7; i++)
 				{
 					if (modules[i] != undefined && orientations[i] != undefined && deg == true)
-					{
-						orientations[i] *= Math.PI / 180;
-					}
+						var tmpAngle = orientations[i] * Math.PI / 180;
 
 					if (modules[i] != undefined && orientations[i] != undefined)
 					{
-						comX_module = modules[i] * Math.cos(orientations[i]);
-						comY_module = modules[i] * Math.sin(orientations[i]);
+						comX_module = modules[i] * Math.cos(tmpAngle);
+						comY_module = modules[i] * Math.sin(tmpAngle);
 
 						comX_total += comX_module;
 						comY_total += comY_module;
