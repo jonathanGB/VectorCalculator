@@ -1,4 +1,4 @@
-VectorCalculator
+Vector Calculator
 ================
 
 Web app for vector calculations
